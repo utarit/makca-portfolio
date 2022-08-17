@@ -52,7 +52,7 @@ const Home: NextPage = () => {
                         display="inline-block"
                         borderRadius="full "
                         alt="profile photo"
-                        src="/images/prenses.png"
+                        src="/images/me.jpeg"
                     />
                 </Box>
             </Box>
