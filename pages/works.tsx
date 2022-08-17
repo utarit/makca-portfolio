@@ -9,6 +9,7 @@ import vrthings from '../public/images/vrthings.png'
 import unikit from '../public/images/unikit.png'
 import ocit from '../public/images/ocit.png'
 import welcomePage from '../public/images/react-welcome-page-demo.png'
+import ocitBlog from '../public/images/ocit-blog.png'
 
 const Works = () => (
     <Article title="Works">
@@ -35,6 +36,15 @@ const Works = () => (
                         thumbnail={hmsMap}
                     >
                         Huawei maps plugin for React Native apps
+                    </WorkGridItem>
+                </Section>
+                <Section>
+                    <WorkGridItem
+                        id="ocit-blog"
+                        title="OCİT Blog"
+                        thumbnail={ocitBlog}
+                    >
+                        METU Lifesaving and First Aid Society Blog
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
