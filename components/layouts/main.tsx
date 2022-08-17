@@ -16,10 +16,10 @@ export const Main = ({ children, router }: Props) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
-                <title>Mert AKÇA - Homepage</title>
+                <title>Homepage - Mert AKÇA</title>
             </Head>
             <Navbar path={router.asPath} />
-            <Container maxW="container.md" pt={14}>
+            <Container maxW="container.md" pt={16}>
                 {children}
             </Container>
         </Box>
