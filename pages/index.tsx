@@ -28,7 +28,7 @@ const Home: NextPage = () => {
                 mb={6}
                 alignContent="center"
             >
-                This is Mert, an enthusiastic developer / photographer
+                This is Mert, an interface developer / enthusiastic photographer
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
