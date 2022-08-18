@@ -1,4 +1,10 @@
-import { Box, Container } from '@chakra-ui/react'
+import {
+    Box,
+    Center,
+    Container,
+    useColorModeValue,
+    Image,
+} from '@chakra-ui/react'
 import Head from 'next/head'
 import { Router } from 'next/router'
 import React from 'react'
@@ -38,6 +44,18 @@ export const Main = ({ children, router }: Props) => {
             </Head>
             <Navbar path={router.asPath} />
             <Container maxW="container.md" pt={16}>
+                <Center>
+                    <Image
+                        width="50%"
+                        height={250}
+                        objectFit="cover"
+                        src="/cat-drinking.gif"
+                        alt="Cat drinking coffee"
+                        style={{
+                            filter: useColorModeValue('none', 'invert(100%)'),
+                        }}
+                    />
+                </Center>
                 {children}
             </Container>
         </Box>
