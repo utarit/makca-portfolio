@@ -62,8 +62,7 @@ export const Main = ({ children, router }: Props) => {
             <Container maxW="container.md" pt={16}>
                 <Center>
                     <Image
-                        width="50%"
-                        height={250}
+                        height={300}
                         objectFit="cover"
                         src="/cat-drinking.gif"
                         alt="Cat drinking coffee"
