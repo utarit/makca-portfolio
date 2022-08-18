@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                     <Heading as="h2" variant="page-title">
                         Mert Akça
                     </Heading>
-                    <p>Interface developer / Game architect / Cat owner</p>
+                    <p>Front-end developer / Game architect / Cat owner</p>
                 </Box>
                 <Box
                     flexShrink={0}
