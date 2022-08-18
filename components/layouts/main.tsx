@@ -22,6 +22,22 @@ export const Main = ({ children, router }: Props) => {
                     name="viewport"
                     content="width=device-width, initial-scale=1"
                 />
+                <meta property="og:site_name" content="Mert Akça Portfolio" />
+                <meta property="og:title" content="Mert Akça Portfolio" />
+                <meta
+                    property="og:description"
+                    content="Some works and posts by Mert Akça's hand, and a cute cat."
+                />
+                <meta
+                    property="og:image"
+                    itemProp="image"
+                    content="/cat-drinking.gif"
+                />
+                <meta property="og:image:type" content="image/gif" />
+                <meta property="og:image:width" content="300" />
+                <meta property="og:image:height" content="300" />
+                <meta property="og:url" content="http://mertakca.vercel.app" />
+                <meta property="og:type" content="website" />
                 <title>Homepage - Mert AKÇA</title>
                 <link
                     rel="apple-touch-icon"
