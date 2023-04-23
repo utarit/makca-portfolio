@@ -15,7 +15,7 @@ import type { NextPage } from 'next'
 import { Paragraph } from '../components/Paragraph'
 import { Section } from '../components/Section'
 import { ChevronRightIcon } from '@chakra-ui/icons'
-import { BioSection, BioYear } from '../components/Bio'
+import { BioInfo, BioSection, BioYear } from '../components/Bio'
 import { IoLogoGithub, IoLogoLinkedin, IoLogoMedium } from 'react-icons/io5'
 
 const Home: NextPage = () => {
@@ -28,14 +28,14 @@ const Home: NextPage = () => {
                 mb={6}
                 alignContent="center"
             >
-                Programmer: A machine that turns coffee into code ☕
+                Developer: A machine that turns coffee into code ☕
             </Box>
             <Box display={{ md: 'flex' }}>
                 <Box flexGrow={1}>
                     <Heading as="h2" variant="page-title">
                         Mert Akça
                     </Heading>
-                    <p>Front-end developer / Game architect / Cat owner</p>
+                    <p>Front-end developer / Puzzle master / Cat owner</p>
                 </Box>
                 <Box
                     flexShrink={0}
@@ -62,12 +62,14 @@ const Home: NextPage = () => {
                     Work
                 </Heading>
                 <Paragraph>
-                    A professional caffeine addict graduated from METU. Likes
-                    coding and tries to solve real-world problems, and does it
-                    in the most effective, stylish, and accessible way.
-                    Sometimes takes photos, sometimes directs short films and
-                    crazy about board games. Hopes that his doings make a
-                    difference in people&apos;s lives positively.
+                    As a passionate caffeine addict and a graduate of METU, I am
+                    driven by my love for coding and problem-solving. My
+                    ultimate goal is to provide efficient, stylish, and
+                    accessible solutions to real-world issues. In addition to my
+                    coding expertise, I also enjoy dabbling in photography,
+                    directing short films, and cracking escape rooms. Above all,
+                    I strive to make a positive impact on people&apos;s lives
+                    through my work and hope to continue doing so.
                 </Paragraph>
                 <Box justifyContent="center" my={4}>
                     <NextLink href="/works">
@@ -86,29 +88,42 @@ const Home: NextPage = () => {
                     Bio
                 </Heading>
                 <BioSection>
-                    <BioYear>1997</BioYear> First cry
+                    <BioYear>1997</BioYear>
+                    <BioInfo>Born</BioInfo>
                 </BioSection>
                 <BioSection>
-                    <BioYear>2009</BioYear> Won a computer in a TV contest
+                    <BioYear>2009</BioYear>
+                    <BioInfo>
+                        Came out on top in a televised competition
+                    </BioInfo>
                 </BioSection>
                 <BioSection>
-                    <BioYear>2016</BioYear> Conducted{' '}
-                    <Link
-                        fontWeight="bold"
-                        color="teal"
-                        href="https://ocit.vercel.app/"
-                        target="_blank"
-                    >
-                        METU First Aid Club
-                    </Link>
-                    &nbsp; and became a first aid instructor
+                    <BioYear>2015</BioYear>
+                    <BioInfo>
+                        Achieved the 121st rank in the national university
+                        entrance exam
+                    </BioInfo>
                 </BioSection>
                 <BioSection>
-                    <BioYear>2020</BioYear> Graduated from Middle East Technical
-                    University
+                    <BioYear>2016</BioYear>
+                    <BioInfo>
+                        Conducted{' '}
+                        <Link
+                            fontWeight="bold"
+                            color="teal"
+                            href="https://ocit.metu.edu.tr/tr"
+                            target="_blank"
+                        >
+                            METU Life Saving First Aid Society
+                        </Link>{' '}
+                        and became a first aid instructor
+                    </BioInfo>
                 </BioSection>
                 <BioSection>
-                    <BioYear>2021</BioYear> Now working as Software Engineer
+                    <BioYear>2021</BioYear>
+                    <BioInfo>
+                        Gradually building a career in UI/UX Development
+                    </BioInfo>
                 </BioSection>
             </Section>
 
