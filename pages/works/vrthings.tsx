@@ -12,9 +12,12 @@ const VRThings = () => (
                 VRThings <Badge>2020</Badge>
             </Title>
             <Paragraph>
-                VRThings is a board game platform for VR devices. We aim to
-                connect board game enthusiasts and distant friends together with
-                the cutting edge technology, virtual reality.
+                VRThings is a board game platform for VR devices that brings
+                enthusiasts and distant friends together through cutting-edge
+                virtual reality. Enjoy realistic environments and multiplayer
+                support, play various games with 2 to 6 people, and experience
+                it all with your Oculus Quest wireless headset and VR
+                controllers.
             </Paragraph>
             <List ml={4} my={4}>
                 <ListItem>

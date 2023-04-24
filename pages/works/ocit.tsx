@@ -12,11 +12,11 @@ const OcitFirstAid = () => (
                 OCİT First Aid <Badge>2018</Badge>
             </Title>
             <Paragraph>
-                This is an implementation of my years of first aid knowledge. I
-                wanted to spread this awareness as much as I can and developed
-                such an app. I aimed that people can use it as a guide in
-                emergencies. It comes with gifs that show what to do step by
-                step and a blog that uses firebase to shop up some articles.
+                Leveraging my extensive knowledge in first aid, I developed an
+                app to help increase public awareness and assist people in
+                emergency situations. The app includes gifs demonstrating
+                step-by-step procedures and a blog section powered by Firebase
+                for additional information.
             </Paragraph>
             <List ml={4} my={4}>
                 <ListItem>
@@ -27,12 +27,22 @@ const OcitFirstAid = () => (
                     </Link>
                 </ListItem>
                 <ListItem>
+                    <Meta>Web</Meta>
+                    <Link href="https://ocit-canki.netlify.app/">
+                        https://ocit-canki.netlify.app/
+                        <ExternalLinkIcon mx="2px" />
+                    </Link>
+                </ListItem>
+                <ListItem>
                     <Meta>Platform</Meta>
-                    <span>Android</span>
+                    <span>Android, Web</span>
                 </ListItem>
                 <ListItem>
                     <Meta>Stack</Meta>
-                    <span>Flutter, Android</span>
+                    <span>
+                        Flutter, Android, Capacitor, Next.js, Firebase, Tailwind
+                        CSS
+                    </span>
                 </ListItem>
             </List>
 

@@ -12,11 +12,10 @@ const Unikit = () => (
                 UniKit <Badge>2019</Badge>
             </Title>
             <Paragraph>
-                UniKit helps the student friends with their school life, as much
-                as possible. My initial idea is that this app is only for me and
-                my university. Now, I plan to implement this logic for other
-                universities. It communicates with the school&apos;s information
-                system and uses a local database for courses and to-do data.
+                UniKit is an app designed to assist students in managing their
+                school life as efficiently as possible. UniKit communicates with
+                the school&apos;s information system and utilizes a local
+                database to store courses and to-do data.
             </Paragraph>
             <List ml={4} my={4}>
                 <ListItem>
