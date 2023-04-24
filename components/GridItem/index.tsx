@@ -3,6 +3,7 @@ import Image, { StaticImageData } from 'next/image'
 import { Box, Text, LinkBox, LinkOverlay } from '@chakra-ui/react'
 
 import styles from './styles.module.css'
+import { ExternalLinkIcon } from '@chakra-ui/icons'
 
 interface Props {
     children?: React.ReactNode
@@ -23,7 +24,9 @@ export const GridItem = ({ children, href, title, thumbnail }: Props) => (
                 loading="lazy"
             />
             <LinkOverlay href={href} target="_blank">
-                <Text mt={2}>{title}</Text>
+                <Text mt={2}>
+                    {title} <ExternalLinkIcon />
+                </Text>
             </LinkOverlay>
             <Text fontSize={14}>{children}</Text>
         </LinkBox>
