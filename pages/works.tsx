@@ -38,13 +38,18 @@ const Works = () => (
                         Huawei maps plugin for React Native apps
                     </WorkGridItem>
                 </Section>
-                <Section>
+                <Section delay={0.4}>
                     <WorkGridItem
-                        id="ocit-blog"
-                        title="OCİT Blog"
-                        thumbnail={ocitBlog}
+                        id="ocit"
+                        thumbnail={ocit}
+                        title="OCİT First Aid"
                     >
-                        METU Lifesaving and First Aid Society Blog
+                        A First aid app that guides people in emergencies
+                    </WorkGridItem>
+                </Section>
+                <Section delay={0.3}>
+                    <WorkGridItem id="unikit" thumbnail={unikit} title="UniKit">
+                        A handy app for METU students
                     </WorkGridItem>
                 </Section>
             </SimpleGrid>
@@ -58,6 +63,15 @@ const Works = () => (
             </Section>
 
             <SimpleGrid columns={[1, 1, 2]} gap={6}>
+                <Section>
+                    <WorkGridItem
+                        id="ocit-blog"
+                        title="OCİT Blog"
+                        thumbnail={ocitBlog}
+                    >
+                        METU Lifesaving and First Aid Society Blog
+                    </WorkGridItem>
+                </Section>
                 <Section delay={0.3}>
                     <WorkGridItem
                         id="vrthings"
@@ -65,20 +79,6 @@ const Works = () => (
                         thumbnail={vrthings}
                     >
                         A Board Game Experience but with VR
-                    </WorkGridItem>
-                </Section>
-                <Section delay={0.3}>
-                    <WorkGridItem id="unikit" thumbnail={unikit} title="UniKit">
-                        A handy app for METU students
-                    </WorkGridItem>
-                </Section>
-                <Section delay={0.4}>
-                    <WorkGridItem
-                        id="ocit"
-                        thumbnail={ocit}
-                        title="OCİT First Aid"
-                    >
-                        A First aid app that guides people in emergencies
                     </WorkGridItem>
                 </Section>
                 <Section delay={0.4}>
