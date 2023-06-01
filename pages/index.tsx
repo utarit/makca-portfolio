@@ -88,13 +88,9 @@ const Home: NextPage = () => {
                     Bio
                 </Heading>
                 <BioSection>
-                    <BioYear>1997</BioYear>
-                    <BioInfo>Born</BioInfo>
-                </BioSection>
-                <BioSection>
                     <BioYear>2009</BioYear>
                     <BioInfo>
-                        Came out on top in a televised competition
+                        Came out on top in a competition in TRT Cocuk
                     </BioInfo>
                 </BioSection>
                 <BioSection>
@@ -122,7 +118,8 @@ const Home: NextPage = () => {
                 <BioSection>
                     <BioYear>2021</BioYear>
                     <BioInfo>
-                        Gradually building a career in UI/UX Development
+                        Gradually building a career in UX & front-end
+                        development
                     </BioInfo>
                 </BioSection>
             </Section>
