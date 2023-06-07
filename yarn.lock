@@ -1107,6 +1107,11 @@
     "@typescript-eslint/types" "5.27.1"
     "eslint-visitor-keys" "^3.3.0"
 
+"@vercel/analytics@^1.0.1":
+  "integrity" "sha512-Ux0c9qUfkcPqng3vrR0GTrlQdqNJ2JREn/2ydrVuKwM3RtMfF2mWX31Ijqo1opSjNAq6rK76PwtANw6kl6TAow=="
+  "resolved" "https://registry.npmjs.org/@vercel/analytics/-/analytics-1.0.1.tgz"
+  "version" "1.0.1"
+
 "@zag-js/focus-visible@0.1.0":
   "integrity" "sha512-PeaBcTmdZWcFf7n1aM+oiOdZc+sy14qi0emPIeUuGMTjbP0xLGrZu43kdpHnWSXy7/r4Ubp/vlg50MCV8+9Isg=="
   "resolved" "https://registry.npmjs.org/@zag-js/focus-visible/-/focus-visible-0.1.0.tgz"
