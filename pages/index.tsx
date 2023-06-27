@@ -35,7 +35,7 @@ const Home: NextPage = () => {
                     <Heading as="h2" variant="page-title">
                         Mert Akça
                     </Heading>
-                    <p>Front-end developer / Puzzle master / Cat owner</p>
+                    <p>Front-end developer / Game creator / Cat owner</p>
                 </Box>
                 <Box
                     flexShrink={0}
@@ -66,7 +66,7 @@ const Home: NextPage = () => {
                     driven by my love for coding and problem-solving. My
                     ultimate goal is to provide efficient, stylish, and
                     accessible solutions to real-world issues. In addition to my
-                    coding expertise, I also enjoy dabbling in photography,
+                    coding expertise, I also enjoy creating puzzle games,
                     directing short films, and cracking escape rooms. Above all,
                     I strive to make a positive impact on people&apos;s lives
                     through my work and hope to continue doing so.
