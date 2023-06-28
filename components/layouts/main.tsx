@@ -15,6 +15,8 @@ interface Props {
     router: Router
 }
 export const Main = ({ children, router }: Props) => {
+    const colorMode = useColorModeValue('none', 'invert(100%)')
+
     return (
         <Box as="main" pb={8}>
             <Head>
@@ -60,17 +62,19 @@ export const Main = ({ children, router }: Props) => {
             </Head>
             <Navbar path={router.asPath} />
             <Container maxW="container.md" pt={16}>
-                <Center>
-                    <Image
-                        height={300}
-                        objectFit="cover"
-                        src="/cat-drinking.gif"
-                        alt="Cat drinking coffee"
-                        style={{
-                            filter: useColorModeValue('none', 'invert(100%)'),
-                        }}
-                    />
-                </Center>
+                {router.asPath !== '/makca-digital' && (
+                    <Center>
+                        <Image
+                            height={300}
+                            objectFit="cover"
+                            src="/cat-drinking.gif"
+                            alt="Cat drinking coffee"
+                            style={{
+                                filter: colorMode,
+                            }}
+                        />
+                    </Center>
+                )}
                 {children}
             </Container>
         </Box>
