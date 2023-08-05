@@ -61,9 +61,6 @@ export const Navbar = ({ path }: Props) => {
                     <LinkItem href="/posts" path={path}>
                         Posts
                     </LinkItem>
-                    <LinkItem href="/makca-digital" path={path}>
-                        Makca Digital
-                    </LinkItem>
                 </Stack>
 
                 <Box>
